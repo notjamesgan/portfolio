@@ -1,0 +1,19 @@
+#pageOwner {
+    font-family: 'Lato';
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+}
+
+#introduction {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#intro {
+    font-family: 'Caveat', cursive;
+    font-size: xx-large;
+    font-weight: 700;
+}

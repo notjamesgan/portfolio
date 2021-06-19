@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body style="background-color: silver;">
+<body>
     <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #3c9e52;">
         <a class="navbar-brand px-3" href="#" id="pageOwner">
             James Gan
@@ -21,36 +21,29 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="expandme">
-            <div class="navbar-nav">
-                <a href="https://www.linkedin.com/in/james-gan-aaa7a1142/" class="nav-item nav-link px-3" title="LinkedIn Profile">
-                    <img src="https://image.flaticon.com/icons/png/512/1384/1384088.png" alt="linkedIn" width="30" height="30">
-                </a>
-                <a href="https://github.com/notjamesgan" class="nav-item nav-link px-3" title="Github Profile">
-                    <img src="https://image.flaticon.com/icons/png/512/2111/2111425.png" alt="github" width="30" height="30">
-                </a>
-                <a href="https://www.instagram.com/leongyi___/" class="nav-item nav-link px-3" title="Instagram">
-                    <img src="https://image.flaticon.com/icons/png/512/1384/1384031.png" alt="instagram" width="30" height="30">
-                </a>
-                <a href="https://www.goodreads.com/user/show/67966176-james" class="nav-item nav-link px-3" title="Books">
-                    <img src="https://image.flaticon.com/icons/png/512/2947/2947998.png" alt="books" width="30" height="30">
-                </a>
+            <div class="navbar-nav px-3">
+                <a id="project" href="">Projects</a>
+                <a id="project" href="">Resume</a>
             </div>
         </div>
     </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <img src="my_img.png" alt="authorImage" height="100%" width="100%">    
-            </div>
-            <div id="introduction" class="col-lg-6">
-                <h2 id=intro>
-                    An avid reader. A coffee lover. A soon-to-be data scientist.
-                </h2>
-            </div>
+        <div class="my_img" >
+            <img src="my_img.png" alt="authorImage">    
+        </div>
+        <div class="my_img">
+            <h2 id="intro">
+                An avid reader. <br>
+                A coffee lover. <br>
+                A computer science student.
+            </h2>
         </div>
     </div>
     
+
+    
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -61,4 +54,21 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 </body>
+
+<footer>
+    <div id="accounts">
+        <a href="https://www.linkedin.com/in/james-gan-aaa7a1142/" class="nav-item nav-link px-3" title="LinkedIn Profile">
+            <img src="https://image.flaticon.com/icons/png/512/1384/1384088.png" alt="linkedIn" width="30" height="30">
+        </a>
+        <a href="https://github.com/notjamesgan" class="nav-item nav-link px-3" title="Github Profile">
+            <img src="https://image.flaticon.com/icons/png/512/2111/2111425.png" alt="github" width="30" height="30">
+        </a>
+        <a href="https://www.instagram.com/leongyi___/" class="nav-item nav-link px-3" title="Instagram">
+            <img src="https://image.flaticon.com/icons/png/512/1384/1384031.png" alt="instagram" width="30" height="30">
+        </a>
+        <a href="https://www.goodreads.com/user/show/67966176-james" class="nav-item nav-link px-3" title="Books">
+            <img src="https://image.flaticon.com/icons/png/512/2947/2947998.png" alt="books" width="30" height="30">
+        </a>
+    </div>
+</footer>
 </html>
